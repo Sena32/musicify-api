@@ -1,22 +1,52 @@
-### 💻 Project
-Api developed for challenge and studies.
+<div align="center">
 
-#### :hammer_and_wrench: Features 
+# 🎵 **Musicify API**
 
--   [ ] CRUD User
--   [ ] CRUD Playlist
--   [ ] CRUD Musica
--   [ ] CRUD Autor
--   [ ] CRUD Comentario
+**RESTful API built for study purposes and CRUD practice using Java and Spring Boot.**
 
+[![Status](https://img.shields.io/badge/status-active-brightgreen?style=for-the-badge)]()
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)]()
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)]()
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)]()
+[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)]()
 
-#### ✨ Stack
+</div>
 
--   [ ] JAVA
+---
 
-#### 🛣️ Routes
+### 🧠 **Sobre o projeto**
 
-Base - `localhost:8081`
+A **Musicify API** é uma aplicação desenvolvida para estudo de CRUD, boas práticas REST e manipulação de dados com **Spring Boot**.  
+Ela simula um sistema de gerenciamento de músicas, playlists, autores e comentários.
+
+---
+
+### ⚙️ **Funcionalidades**
+
+- [x] CRUD de Usuários  
+- [x] CRUD de Playlists  
+- [x] CRUD de Músicas  
+- [x] CRUD de Autores  
+- [x] CRUD de Comentários  
+- [ ] Implementação de autenticação (em desenvolvimento)
+
+---
+
+### 🧱 **Stack utilizada**
+
+| Tipo | Tecnologias |
+|------|--------------|
+| **Linguagem** | Java 17 |
+| **Framework** | Spring Boot |
+| **Banco de Dados** | PostgreSQL |
+| **ORM** | JPA / Hibernate |
+| **Build Tool** | Maven |
+
+---
+
+### 🛣️ **Principais rotas**
+
+Base URL: `http://localhost:8081/api`
 
 | Route | Method | Description |
 | --- | --- | --- |
@@ -54,6 +84,20 @@ Base - `localhost:8081`
 | `/api/comentario` | PUT | Update an existent comment |
 | `/api/comentario` | DELETE | Remove an existent comment |
 | `/api/comentario/{id}` | DELETE | Remove an existent comment by id |
+---
+
+### 🧪 **Como executar localmente**
+
+```bash
+# Clone o repositório
+git clone https://github.com/Sena32/musicify-api.git
+
+# Entre na pasta do projeto
+cd musicify-api
+
+# Execute o projeto
+./mvnw spring-boot:run
+```
 <br />
 <div align="center">
   <small>Developed by Ailton de Sena Pinheiro - 05/2023</small>
